@@ -35,11 +35,11 @@ As seen in the simulation output below, the controller successfully regulates th
 ![Simulation Results](docs/Screenshot%20(2123).png)
 *Figure 3: Scope output showing the temperature variations of the 4 rooms over time, remaining within the 15-20°C target range.*
 
-## 💻 Hardware-in-the-Loop (HIL) / Simulation Execution
-As an optional extension, the system's control logic was generated into C code using **Embedded Coder** and tested on an Arduino framework via the Wokwi simulator. LEDs were used to represent the active states of the heaters in real-time.
+## 💻 Code Generation & Wokwi Simulation
+As an optional extension, the system's control logic was generated into C code using **Embedded Coder** and tested on an Arduino framework using the **Wokwi** online simulator. In this pure software simulation, LEDs were utilized to visually represent the active states of the heaters in real-time.
 
 ![Wokwi Simulation](docs/Screenshot%20(2124).png)
-*Figure 4: Processor-in-the-Loop (PIL) simulation using generated C code on an Arduino simulator.*
+*Figure 4: Software simulation of the generated C code on an Arduino framework using Wokwi.*
 
 ## 📂 Repository Structure
 - **`models/`**: Contains the core Simulink models (`.slx`) and requirement files (`.slreqx`).
